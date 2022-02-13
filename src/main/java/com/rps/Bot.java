@@ -50,7 +50,7 @@ public class Bot {
 
         BaseRequest request = null;
 
-        if (message != null && message.viaBot() != null && message.viaBot().username().equals("Phenr_bot")) {
+        if (message != null && message.viaBot() != null && message.viaBot().username().equals("NAME_ofYOUR_BOT")) {
             InlineKeyboardMarkup replyMarkup = message.replyMarkup();
             if (replyMarkup == null) {
                 return;
